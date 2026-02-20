@@ -71,7 +71,7 @@ const products = [
     title: 'Wireless Charging Pad',
     price: 29.99,
     description: 'Fast wireless charging pad compatible with all Qi-enabled devices. LED indicator included.',
-    image: 'https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?w=400',
+    image: 'https://images.unsplash.com/photo-1591290619762-c588e3b59910?w=400',
     category: 'Electronics'
   }
 ];
