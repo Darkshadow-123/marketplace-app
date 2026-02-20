@@ -1,0 +1,90 @@
+.favorites-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.favorites-page h1 {
+  margin: 0 0 2rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #666;
+}
+
+.empty-state p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.browse-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.browse-link:hover {
+  text-decoration: underline;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.favorite-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite-card a {
+  display: block;
+}
+
+.favorite-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.favorite-info {
+  padding: 1rem;
+  flex: 1;
+}
+
+.favorite-info h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.favorite-info .price {
+  color: #2ecc71;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.remove-btn {
+  margin: 0 1rem 1rem;
+  padding: 0.75rem;
+  background: #fee;
+  color: #e74c3c;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.remove-btn:hover {
+  background: #fdd;
+}

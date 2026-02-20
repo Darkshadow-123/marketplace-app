@@ -1,0 +1,95 @@
+.product-detail {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.detail-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .detail-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.detail-image {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.detail-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-category {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #667eea;
+  font-weight: 600;
+}
+
+.detail-info h1 {
+  margin: 0.5rem 0 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.detail-price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2ecc71;
+  margin-bottom: 1.5rem;
+}
+
+.detail-description {
+  color: #666;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.add-favorite-btn {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: all 0.3s;
+}
+
+.add-favorite-btn.active {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
