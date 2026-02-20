@@ -2,7 +2,7 @@ import React, { useState, useEffect, createContext, useContext } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, KeyboardAvoidingView, Platform, Alert, ActivityIndicator } from 'react-native';
 import { router } from 'expo-router';
 
-const API_URL = 'http://192.168.29.70:5000/api';
+const API_URL = 'https://marketplace-app-qd1q.onrender.com/api';
 
 const AuthContext = createContext(null);
 

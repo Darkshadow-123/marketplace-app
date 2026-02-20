@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://marketplace-app-qd1q.onrender.com/api';
 
 const getAuthHeader = () => {
   const token = localStorage.getItem('token');
